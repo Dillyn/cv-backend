@@ -48,24 +48,34 @@ namespace FirstAPI.Repositories
             }
         }
 
-        public void Update<T>(T entity) where T : class
+        public async Task Update<T>(T entity) where T : class
         {
-            try
+            // Get the Id property of the entity
+            var keyProperty = typeof(T).GetProperty("Id");
+            if (keyProperty == null)
             {
-                var existingEntity = _context.Set<T>().Find(entity);
-                if (existingEntity == null)
-                {
-                    throw new EntityNotFoundException("Entity not found.");
-                }
+                throw new InvalidOperationException($"{typeof(T).Name} does not have an Id property.");
+            }
 
-                // Use the method to update only non-null and non-empty properties
-                UpdateNonNullProperties(existingEntity, entity);
-                _context.SaveChanges();
-            }
-            catch (Exception ex)
+            // Get the value of the Id from the entity
+            var id = keyProperty.GetValue(entity);
+            if (id == null)
             {
-                throw new DatabaseException("An error occurred while updating the entity.", ex);
+                throw new ArgumentNullException(nameof(id), "Entity ID cannot be null.");
             }
+
+            // Find the existing entity in the database by Id
+            var existingEntity = await _context.Set<T>().FindAsync(id);
+            if (existingEntity == null)
+            {
+                throw new EntityNotFoundException($"{typeof(T).Name} with ID {id} not found.");
+            }
+
+            // Update only non-null properties (excluding the Id property)
+            UpdateEntityProperties(existingEntity, entity);
+
+            // Save the changes asynchronously
+            await _context.SaveChangesAsync();
         }
 
         public void Delete<T>(int id) where T : class
@@ -101,19 +111,14 @@ namespace FirstAPI.Repositories
 
         public void SaveChanges()
         {
-            try
-            {
-                _context.SaveChanges();
-            }
-            catch (Exception ex)
-            {
-                throw new DatabaseException("An error occurred while saving changes to the database.", ex);
-            }
+            _context.SaveChanges();// saves changes to Database
+
         }
 
         // Update non-null, non-empty properties dynamically
-        public static void UpdateNonNullProperties<T>(T existingEntity, T updatedEntity) where T : class
+        private void UpdateEntityProperties<T>(T existingEntity, T updatedEntity) where T : class
         {
+            // Get all properties of the entity
             var properties = typeof(T).GetProperties();
 
             foreach (var property in properties)
@@ -121,18 +126,17 @@ namespace FirstAPI.Repositories
                 // Skip read-only properties and the Id property
                 if (!property.CanWrite || property.Name == "Id") continue;
 
-                var newValue = property.GetValue(updatedEntity);
                 var existingValue = property.GetValue(existingEntity);
+                var updatedValue = property.GetValue(updatedEntity);
 
-                // Check if the new value is not null, not empty (for strings), and is different from the existing value
-                if (newValue != null &&
-                    !(newValue is string str && string.IsNullOrWhiteSpace(str)) &&
-                    !Equals(newValue, existingValue))
+                // If the updated value is not null or empty, update the property
+                if (updatedValue != null &&
+                    !(updatedValue is string str && string.IsNullOrWhiteSpace(str)) &&
+                    !Equals(existingValue, updatedValue))
                 {
-                    property.SetValue(existingEntity, newValue);
+                    property.SetValue(existingEntity, updatedValue);
                 }
             }
-
         }
     }
 }

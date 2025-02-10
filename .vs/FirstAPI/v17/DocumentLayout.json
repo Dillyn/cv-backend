@@ -1,57 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\",
+  "WorkspaceRootPath": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\controllers\\hobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\controllers\\hobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\controllers\\hobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\controllers\\hobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\utils\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\utils\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\models\\hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\models\\hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\repositories\\exceptions\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\repositories\\exceptions\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\utils\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\utils\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\repositories\\exceptions\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\repositories\\exceptions\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\migrations\\20250202140313_innitialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\migrations\\20250202140313_innitialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\migrations\\20250202140313_innitialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\source\\repos\\cv-backend\\firstapi\\migrations\\20250205121400_initialcvdbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|c:\\users\\dillyn\\desktop\\source\\repos\\cv-backend\\firstapi\\migrations\\20250205121400_initialcvdbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03C5BC3-CE36-40EE-9106-11E967181A0A}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\migrations\\20250205121400_initialcvdbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,11 +66,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Interface.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\utils\\Interface.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\utils\\Interface.cs",
               "RelativeDocumentMoniker": "FirstAPI\\utils\\Interface.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\utils\\Interface.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\utils\\Interface.cs",
               "RelativeToolTip": "FirstAPI\\utils\\Interface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,108 +78,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Repositories\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\IRepository.cs",
               "RelativeToolTip": "FirstAPI\\Repositories\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T14:21:39.015Z"
+              "WhenOpened": "2025-02-05T14:21:39.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Repositories\\Repository.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\Repository.cs",
               "RelativeToolTip": "FirstAPI\\Repositories\\Repository.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAwwDMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T14:24:04.876Z"
+              "WhenOpened": "2025-02-05T14:24:04.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "FirstAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T20:16:04.424Z"
+              "WhenOpened": "2025-01-29T20:16:04.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "FirstAPI\\Services\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T07:56:51.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "FirstAPI\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Services\\UserService.cs",
-              "RelativeToolTip": "FirstAPI\\Services\\UserService.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAqwGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T07:56:51.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "HobbyController.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Controllers\\HobbyController.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Controllers\\HobbyController.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Controllers\\HobbyController.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Controllers\\HobbyController.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Controllers\\HobbyController.cs",
               "RelativeToolTip": "FirstAPI\\Controllers\\HobbyController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvxQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T18:15:13.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Program.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Program.cs",
               "RelativeToolTip": "FirstAPI\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAADwvxEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T17:05:37.191Z"
+              "WhenOpened": "2025-02-02T17:05:37.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Hobby.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Models\\Hobby.cs",
-              "RelativeDocumentMoniker": "FirstAPI\\Models\\Hobby.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Models\\Hobby.cs",
-              "RelativeToolTip": "FirstAPI\\Models\\Hobby.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T19:01:38.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Models\\User.cs",
               "RelativeToolTip": "FirstAPI\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:28:56.67Z"
+              "WhenOpened": "2025-02-06T08:28:56.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "EntityNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\Exceptions\\EntityNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\Exceptions\\EntityNotFoundException.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Repositories\\Exceptions\\EntityNotFoundException.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\Exceptions\\EntityNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Repositories\\Exceptions\\EntityNotFoundException.cs",
               "RelativeToolTip": "FirstAPI\\Repositories\\Exceptions\\EntityNotFoundException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,11 +181,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "20250205121400_InitialCvDbCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Migrations\\20250205121400_InitialCvDbCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Migrations\\20250205121400_InitialCvDbCreate.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Migrations\\20250205121400_InitialCvDbCreate.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Migrations\\20250205121400_InitialCvDbCreate.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Migrations\\20250205121400_InitialCvDbCreate.cs",
               "RelativeToolTip": "FirstAPI\\Migrations\\20250205121400_InitialCvDbCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -203,11 +193,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "20250202140313_InnitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Migrations\\20250202140313_InnitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Migrations\\20250202140313_InnitialCreate.cs",
               "RelativeDocumentMoniker": "FirstAPI\\Migrations\\20250202140313_InnitialCreate.cs",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Migrations\\20250202140313_InnitialCreate.cs",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Migrations\\20250202140313_InnitialCreate.cs",
               "RelativeToolTip": "FirstAPI\\Migrations\\20250202140313_InnitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -215,11 +205,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FirstAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\Properties\\launchSettings.json",
               "RelativeToolTip": "FirstAPI\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

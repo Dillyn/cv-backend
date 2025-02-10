@@ -15,7 +15,7 @@
         void Create<T>(T entity) where T : class;
 
         // Update an existing entity
-        void Update<T>(T entity) where T : class;
+        Task Update<T>(T entity) where T : class;
 
         // Delete an existing entity
         void Delete<T>(int id) where T : class;

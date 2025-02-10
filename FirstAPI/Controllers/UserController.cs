@@ -71,7 +71,7 @@ namespace FirstAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateUser(int id, [FromBody] User user)
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] User user)
         {
             if (user == null || id != user.Id)
             {
@@ -79,7 +79,7 @@ namespace FirstAPI.Controllers
             }
             try
             {
-                _userService.UpdateUser(user);
+                await _userService.UpdateUser(user);
                 return Ok(new { message = "User updated successfully" });
             }
             catch (UserNotFoundException ex)

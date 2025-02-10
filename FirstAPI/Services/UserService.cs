@@ -1,5 +1,6 @@
 ﻿using FirstAPI.Models;
 using FirstAPI.Repositories;
+using FirstAPI.Repositories.Exceptions;
 using FirstAPI.Services.Exceptions;
 
 namespace FirstAPI.Services
@@ -53,15 +54,32 @@ namespace FirstAPI.Services
             }
         }
 
-        public void UpdateUser(User user)
+        public async Task UpdateUser(User user)
         {
             try
             {
-                _repository.Update(user);
+                // Attempt to update the user in the repository
+                await _repository.Update(user);
+            }
+            catch (EntityNotFoundException ex)
+            {
+                // Specific handling for a user not being found
+                throw new ServiceException($"User with ID {user.Id} not found.", ex);
+            }
+            catch (ArgumentNullException ex)
+            {
+                // Specific handling for null argument
+                throw new ServiceException("Provided user data is invalid or incomplete.", ex);
+            }
+            catch (DatabaseException ex)
+            {
+                // Specific handling for database-related issues
+                throw new ServiceException("Database error while updating user.", ex);
             }
             catch (Exception ex)
             {
-                throw new ServiceException("An error occurred while updating the user.", ex);
+                // Catch any unexpected exceptions
+                throw new ServiceException("An unexpected error occurred while updating the user.", ex);
             }
         }
 
@@ -95,13 +113,6 @@ namespace FirstAPI.Services
                      u.Name.ToLower().StartsWith(firstLetter))              // and checks if name start with firstletter
                         .ToList();
 
-
-
-            //If no users are found, throw an exception
-            //if (filteredUsers.Count == 0 || !filteredUsers)
-            //{
-            //    throw new Exception($"No users have been found with a name that begins with the letter '{letter}'.");
-            //}
 
             return filteredUsers;
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\FirstAPI.csproj": {}
+    "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\FirstAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\FirstAPI.csproj": {
+    "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\FirstAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\FirstAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\FirstAPI.csproj",
         "projectName": "FirstAPI",
-        "projectPath": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\FirstAPI.csproj",
+        "projectPath": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\FirstAPI.csproj",
         "packagesPath": "C:\\Users\\Dillyn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dillyn\\source\\repos\\cv-backend\\FirstAPI\\obj\\",
+        "outputPath": "C:\\Users\\Dillyn\\Desktop\\source\\repos\\cv-backend\\FirstAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
