@@ -1,5 +1,7 @@
-﻿using FirstAPI.Data;
+﻿using System.Reflection;
+using FirstAPI.Data;
 using FirstAPI.Repositories.Exceptions;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstAPI.Repositories
 {
@@ -48,14 +50,14 @@ namespace FirstAPI.Repositories
             }
         }
 
-        public async Task Update<T>(T entity) where T : class
+        public  async Task Update<T>(T entity) where T : class
         {
             // Get the Id property of the entity
             var keyProperty = typeof(T).GetProperty("Id");
-            if (keyProperty == null)
-            {
-                throw new InvalidOperationException($"{typeof(T).Name} does not have an Id property.");
-            }
+            //if (keyProperty == null)
+            //{
+            //    throw new InvalidOperationException($"{typeof(T).Name} does not have an Id property.");
+            //}
 
             // Get the value of the Id from the entity
             var id = keyProperty.GetValue(entity);
@@ -70,9 +72,12 @@ namespace FirstAPI.Repositories
             {
                 throw new EntityNotFoundException($"{typeof(T).Name} with ID {id} not found.");
             }
-
+            Console.WriteLine($"cheese              {entity}, {existingEntity}");
             // Update only non-null properties (excluding the Id property)
-            UpdateEntityProperties(existingEntity, entity);
+             UpdateEntityProperties(existingEntity, entity);
+
+            // Mark entity as modified (helps with EF tracking issues)
+            _context.Entry(existingEntity).State = EntityState.Modified;
 
             // Save the changes asynchronously
             await _context.SaveChangesAsync();
@@ -116,12 +121,12 @@ namespace FirstAPI.Repositories
         }
 
         // Update non-null, non-empty properties dynamically
-        private void UpdateEntityProperties<T>(T existingEntity, T updatedEntity) where T : class
+        public void UpdateEntityProperties<T>(T existingEntity, T updatedEntity) where T : class
         {
-            // Get all properties of the entity
-            var properties = typeof(T).GetProperties();
+            // Get type metadata of T
+            Type entityType = typeof(T);
 
-            foreach (var property in properties)
+            foreach (PropertyInfo property in entityType.GetProperties())
             {
                 // Skip read-only properties and the Id property
                 if (!property.CanWrite || property.Name == "Id") continue;
@@ -129,14 +134,18 @@ namespace FirstAPI.Repositories
                 var existingValue = property.GetValue(existingEntity);
                 var updatedValue = property.GetValue(updatedEntity);
 
-                // If the updated value is not null or empty, update the property
+                Console.WriteLine($"Checking property: {property.Name}");
+
+                // If the updated value is not null, non-empty (for strings), and different, update it
                 if (updatedValue != null &&
                     !(updatedValue is string str && string.IsNullOrWhiteSpace(str)) &&
                     !Equals(existingValue, updatedValue))
                 {
                     property.SetValue(existingEntity, updatedValue);
+                    Console.WriteLine($"Updated {property.Name} from {existingValue} to {updatedValue}");
                 }
             }
+            
         }
     }
 }

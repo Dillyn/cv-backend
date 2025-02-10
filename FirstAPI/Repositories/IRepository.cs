@@ -1,4 +1,6 @@
-﻿namespace FirstAPI.Repositories
+﻿using FirstAPI.Services;
+
+namespace FirstAPI.Repositories
 {
     public interface IRepository
     {

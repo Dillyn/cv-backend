@@ -71,7 +71,7 @@ namespace FirstAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser(int id, [FromBody] User user)
+        public async Task<IActionResult> UpdateUser(int id, [FromBody]  User user)
         {
             if (user == null || id != user.Id)
             {
@@ -120,7 +120,7 @@ namespace FirstAPI.Controllers
                 var users = _userService.FindUsersByFirstLetter(letter); // Call service method 
                 if (users == null || users.Count == 0)
                 {
-                    return NotFound(new { message = $"No users found with first name starting with '{letter}'." });
+                    return Ok(users);
                 }
                 return Ok(users);
             }
